@@ -1,6 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## Matrix inversion is usually a costly computation. These two funcitons
+## are for caching the inverse of matrix and get it for later use if 
+## the matrix is not changed.
+
 ## Write a short comment describing this function
 ## makeCacheMatrix: This function creates a special "matrix" object
 ##                  that can cache its inverse.
